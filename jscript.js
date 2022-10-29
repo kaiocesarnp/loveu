@@ -7,5 +7,4 @@ $('button').on('mouseover', function() {
                 getElementById('content').
                 clientWidth + "px"
     }, "medium");
-  })
-  
+  });
