@@ -2,6 +2,12 @@
 
 *{
   margin: 0 auto;
+  padding: 0%;
+}
+
+body {
+  background: #e67c7c;
+  text-align: center;
 }
 
 button {
@@ -32,11 +38,6 @@ button {
   font-size: 1.5rem;
 }
 
-body {
-  background: #e67c7c;
-  text-align: center;
-}
-
 .titulo {
   font-family: 'Fast Hand';
   color: #e2e2e2;
@@ -46,18 +47,20 @@ body {
 }
 
 .tituloD {
+  text-align: center;
   font-family: 'Fast Hand';
   color: #e2e2e2;
-  font-size: 3rem;
-  margin: 0;
+  font-size: 1.6rem;
+  /* margin: 0; */
   padding: 20px;
 }
 
 .heart {
-  font-size: 100px;
+  margin-top: -15px;
+  font-size: 120px;
   color: #e00;
-  animation: beat .25s infinite alternate;
-  transform-origin: center;
+  animation: beat .10s infinite alternate;
+  /* transform-origin: center; */
 }
 
 img{
@@ -66,5 +69,7 @@ img{
 }
 
 @keyframes beat{
-  to { transform: scale(1.4); }
-}
+  to { transform: scale(0.9) }
+};
+
+/* RESPONSIVO */
