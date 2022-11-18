@@ -74,8 +74,14 @@ img{
 
 /* RESPONSIVO */
 @media (max-width: 1104px){
-  .content{
-    max-width: 500px;
-    margin: 0 0 0 45px;
+  .tituloD{
+    font: 0.3rem 'Fast Hand', cursive;;
+  }
+  .heart {
+    margin-top: -15px;
+    font-size: 10px;
+    color: #e00;
+    animation: beat .10s infinite alternate;
+    /* transform-origin: center; */
   }
 }
