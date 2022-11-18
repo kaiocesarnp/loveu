@@ -73,3 +73,9 @@ img{
 };
 
 /* RESPONSIVO */
+@media (max-width: 1104px){
+  .content{
+    max-width: 500px;
+    margin: 0 0 0 45px;
+  }
+}
