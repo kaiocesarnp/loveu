@@ -5,26 +5,12 @@
   padding: 0%;
 }
 
-body {
+body{
   background: #e67c7c;
   text-align: center;
 }
 
-button {
-  position: absolute;
-  top: 70%;
-  left: 30%;
-  text-align: center;
-  color: black;
-  border: 3px solid #9c2929;
-  background: #fac1c1;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
-.sim {
+.sim{
   position: absolute;
   top: 70%;
   right: 30%;
@@ -36,9 +22,25 @@ button {
   margin: 10px;
   padding: 10px;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.titulo {
+.nao{
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  text-align: center;
+  color: black;
+  border: 3px solid #9c2929;
+  background: #fac1c1;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.titulo{
   font-family: 'Fast Hand';
   color: #e2e2e2;
   font-size: 6rem;
@@ -46,7 +48,7 @@ button {
   padding: 20px;
 }
 
-.tituloD {
+.tituloD{
   text-align: center;
   font-family: 'Fast Hand';
   color: #e2e2e2;
@@ -55,7 +57,7 @@ button {
   padding: 20px;
 }
 
-.heart {
+.heart{
   margin-top: -15px;
   font-size: 120px;
   color: #e00;
@@ -73,7 +75,7 @@ img{
 };
 
 /* RESPONSIVO */
-@media (max-width: 1104px){
+/* @media (max-width: 1104px){
   p{
     font: 0.3rem 'Fast Hand', cursive;;
   }
@@ -82,10 +84,10 @@ img{
     font-size: 10px;
     color: #e00;
     animation: beat .10s infinite alternate;
-    /* transform-origin: center; */
+    transform-origin: center;
   }
   img{
-    width: 2%;
-    border-radius: 5%;
+    width: 20%;
+    border-radius: 50%;
   }
-}
+} */
