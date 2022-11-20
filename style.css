@@ -65,7 +65,13 @@ body{
   /* transform-origin: center; */
 }
 
-img{
+.imgOne{
+  width: 40%;
+  border-radius: 20%;
+  margin-left: 3%;
+}
+
+.imgTwo{
   width: 20%;
   border-radius: 10%;
 }
