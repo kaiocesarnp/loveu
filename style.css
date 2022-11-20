@@ -53,7 +53,6 @@ body{
   font-family: 'Fast Hand';
   color: #e2e2e2;
   font-size: 1.6rem;
-  /* margin: 0; */
   padding: 20px;
 }
 
@@ -62,7 +61,6 @@ body{
   font-size: 120px;
   color: #e00;
   animation: beat .10s infinite alternate;
-  /* transform-origin: center; */
 }
 
 .imgOne{
@@ -79,22 +77,3 @@ body{
 @keyframes beat{
   to { transform: scale(0.9) }
 };
-
-/* RESPONSIVO */
-/* @media (max-width: 1104px){
-  p{
-    font: 0.3rem 'Fast Hand', cursive;;
-  }
-  .heart {
-    margin-top: -15px;
-    font-size: 10px;
-    color: #e00;
-    animation: beat .10s infinite alternate;
-    transform-origin: center;
-  }
-  .imgOne{
-    width: 60%;
-    border-radius: 20%;
-    margin-left: 3%;
-  }
-} */
