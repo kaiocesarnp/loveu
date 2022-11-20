@@ -92,8 +92,9 @@ body{
     animation: beat .10s infinite alternate;
     transform-origin: center;
   }
-  img{
-    width: 20%;
-    border-radius: 50%;
+  .imgOne{
+    width: 60%;
+    border-radius: 20%;
+    margin-left: 3%;
   }
 } */
